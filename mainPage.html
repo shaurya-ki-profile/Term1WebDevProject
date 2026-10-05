@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Tracker</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+    <h1>Events Tracker</h1>
+
+    <form>
+        <input type="text" id="name" required placeholder="Event Name">
+        <input type="date" id="date">
+
+        <select id="type">
+            <option value="deadline">Deadline</option>
+            <option value="hackathon">Hackathon</option>
+            <option value="exam">Exam</option>
+            <option value="event">Event</option>
+        </select>
+
+        <button type="reset">Reset Details</button>
+        <button type="submit">Add Event</button>
+    </form>
+    
+    <div id="eventsContainer">
+
+    </div>
+
+    <script src="js.js"></script>
+
+</body>
+
+</html>
